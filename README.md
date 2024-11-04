@@ -2,7 +2,7 @@
 ---
 
                                                                  My Stats
-<p align="left"> <a href="https://github.com/amanpandey7647"><img src="https://github-profile-trophy.vercel.app/?username=Hobby-Dev-0&no-bg=true" alt="Hobby-Dev-0" /></a> </p>
+<p align="left"> <a href="https://github.com/amanpandey7647"><img src="https://github-profile-trophy.vercel.app/?username=amanpandey7647&no-bg=true" alt="Aman Pandey" /></a> </p>
 
 !--
 
