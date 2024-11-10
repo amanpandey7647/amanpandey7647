@@ -67,7 +67,7 @@ console.log(languages, k, k2, k3, k4)
 
 ---
 ![Aman Paney's Git Stats](https://github-readme-stats.vercel.app/api?username=AmanPandey7647&include_all_commits=true&count_private=true&theme=tokyonight)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hobby-dev-0&layout=compact&theme=radical)](https://github.com/AmanPandey7647)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AmanPandey7647&layout=compact&theme=radical)](https://github.com/AmanPandey7647)
 ---
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=hobby-dev-0&show_icons=true&locale=en&langs_count=15&theme=tokyonight" alt="hobby-dev-0" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=AmanPandey7647&show_icons=true&locale=en&langs_count=15&theme=tokyonight" alt="AmanPandey7647" /></p>
 ---
