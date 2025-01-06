@@ -1,25 +1,17 @@
-name: Update README with Recent Activity
+name: Update README
 
 on:
   schedule:
-    - cron: '0 * * * *' 
-  workflow_dispatch:    
-  push:                 
-    branches:
-      - main
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
+    name: Activity Update
+
     steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0   # Fetch all history for accurate activity (important!)
-      - uses: jamesgeorge007/github-activity-readme@v4
-        with:
-          USERNAME: AmanPandey7647
-          COMMIT_MSG: "Update activity"
-          SECTION_NAME: activity
-          MAX_LINES: 7      # Limit the number of activity lines
-          FILTER_REPOS: "" # Filter specific repositories (optional)
-          EXCLUDE_REPOS: "" # Exclude specific repositories (optional)
+      - uses: actions/checkout@v2
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
