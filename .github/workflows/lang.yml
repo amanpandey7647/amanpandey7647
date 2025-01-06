@@ -17,7 +17,7 @@ jobs:
           replace: '<img src="https:\/\/github-readme-stats.vercel.app\/api\/top-langs\?username=amanpandey7647$1&cache_seconds=0" alt="amanpandey7647" \/>'  # Add cache_seconds
 
       - name: Commit and push changes
-        uses: jamesgeorge007/github-activity-readme@v2 
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update top languages
           branch: main  # Specify the branch if it's not `main`
