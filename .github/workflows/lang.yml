@@ -2,7 +2,7 @@ name: Update Top Languages
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily (adjust as needed)
+    - cron: '0 0 * * *'  # Runs daily at midnight (adjust as needed)
   workflow_dispatch:      # Allow manual triggering
 
 jobs:
@@ -13,8 +13,14 @@ jobs:
       - name: Update Top Languages Image URL
         uses: jacobtomlinson/gha-find-replace@v2  # More robust find/replace
         with:
-          find: '<img src="https:\/\/github-readme-stats.vercel.app\/api\/top-langs\?username=AmanPandey7647(.*?)" alt="AmanPandey7647" \/>' # Regex for flexibility
-          replace: '<img src="https:\/\/github-readme-stats.vercel.app\/api\/top-langs\?username=AmanPandey7647$1&cache_seconds=0" alt="AmanPandey7647" \/>' # Add cache_seconds
-      - uses: stefanzweifel/git-auto-commit-action@v4
+          find: '<img src="https:\/\/github-readme-stats.vercel.app\/api\/top-langs\?username=amanpandey7647(.*?)" alt="amanpandey7647" \/>'  # Regex for flexibility
+          replace: '<img src="https:\/\/github-readme-stats.vercel.app\/api\/top-langs\?username=amanpandey7647$1&cache_seconds=0" alt="amanpandey7647" \/>'  # Add cache_seconds
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update top languages
+          branch: main  # Specify the branch if it's not `main`
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}  # Ensure the GitHub token is available
+
