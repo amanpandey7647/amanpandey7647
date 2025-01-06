@@ -1,0 +1,20 @@
+name: Update Top Languages
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily (adjust as needed)
+  workflow_dispatch:      # Allow manual triggering
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update Top Languages Image URL
+        uses: jacobtomlinson/gha-find-replace@v2  # More robust find/replace
+        with:
+          find: '<img src="https:\/\/github-readme-stats.vercel.app\/api\/top-langs\?username=AmanPandey7647(.*?)" alt="AmanPandey7647" \/>' # Regex for flexibility
+          replace: '<img src="https:\/\/github-readme-stats.vercel.app\/api\/top-langs\?username=AmanPandey7647$1&cache_seconds=0" alt="AmanPandey7647" \/>' # Add cache_seconds
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update top languages
