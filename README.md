@@ -59,7 +59,17 @@ current_learning:
 </p>
 
 ---
+---
+## 🛠️ **Languages & Tools**
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Telethon-0088cc?style=flat-square&logo=telegram&logoColor=white" />
+</p>
+---
 
 ## 💻 **Get Involved**
 
@@ -76,26 +86,6 @@ current_learning:
 - I am currently learning about the intersection of **AI and Blockchain**.
 
 ---
-
-## 🏆 **Badges & Achievements**
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/yourprofile/">
-    <img src="https://img.shields.io/badge/LinkedIn-LinkedIn-blue?style=flat-square&logo=linkedin" />
-  </a>
-  <a href="https://twitter.com/yourhandle">
-    <img src="https://img.shields.io/badge/Twitter-@yourhandle-blue?style=flat-square&logo=twitter" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-your.email@example.com-blue?style=flat-square&logo=gmail" />
-  </a>
-  <a href="https://www.hackerrank.com/yourprofile">
-    <img src="https://img.shields.io/badge/HackerRank-YourProfile-orange?style=flat-square&logo=hackerrank" />
-  </a>
-  <a href="https://www.leetcode.com/yourprofile">
-    <img src="https://img.shields.io/badge/LeetCode-YourProfile-green?style=flat-square&logo=leetcode" />
-  </a>
-</p>
 
 
 
