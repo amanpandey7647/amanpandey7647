@@ -59,6 +59,7 @@ current_learning:
 </p>
 
 ---
+
 ---
 ## 🛠️ **Languages & Tools**
 
@@ -68,7 +69,10 @@ current_learning:
   <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Telethon-0088cc?style=flat-square&logo=telegram&logoColor=white" />
+  <img src="https://img.shields.io/badge/Shell-89E051?style=flat-square&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Batch-2E8B57?style=flat-square&logo=windows&logoColor=white" />
 </p>
+
 ---
 
 ## 💻 **Get Involved**
