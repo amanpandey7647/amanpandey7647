@@ -1,22 +1,17 @@
+```markdown
 ### Hi there 👋
----
 
-                                                                 My Stats
-<p align="left"> <a href="https://github.com/amanpandey7647"><img src="https://github-profile-trophy.vercel.app/?username=Hobby-Dev-0&no-bg=true" alt="Aman Pandey" /></a> </p>
+<p align="left"> 
+  <a href="https://github.com/amanpandey7647">
+    <img src="https://github-profile-trophy.vercel.app/?username=Hobby-Dev-0&no-bg=true" alt="Aman Pandey" />
+  </a> 
+</p>
 
-!--
 
+🌱 I’m currently learning advanced Python concepts and exploring web development frameworks.
+💬 Ask me about Python, automation, and scripting.
+⚡ Fun fact: I enjoy building creative coding projects in my free time.
 
-
-Here are some ideas to get you started:
-
-- 🌱 I’m currently learning ....
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
----
 
 ---
 
@@ -26,48 +21,55 @@ Here are some ideas to get you started:
 
 ---
 
-### Some Popular Languages I Use (Samples)
-<h3>
+### Tech Stack & Languages
 
-```python, java script
-​
+<div style="display: flex; justify-content: center; flex-wrap: wrap;">  <!-- Added flex-wrap for responsiveness -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Badge"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript Badge"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML Badge"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS Badge"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash Badge"/>
+  <img src="https://img.shields.io/badge/Docker-2CA25F?style=flat-square&logo=docker&logoColor=white" alt="Docker Badge"/>
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code Badge"/>
+</div>
+
+
+
+```python
 import json
 from dataclasses import asdict, dataclass
+
 @dataclass
-class Stack:
-    languages   : ("Python", "Bash", "HTML", "CSS")
-    misc        : tuple[str, ...] = ("Docker")
-    ongoing     : tuple[str, ...] = ("Python", "HTML", "CSS", "JAVA SCRIPT")
-    def serialize(self):
-        return json.dumps(asdict(self), indent=4)
-stack = Stack()
-print(stack.serialize())
-printf(f"Thank You Very Much. Stay Tuned With Me !! My Languages {languages}")
-​
-```
-</h3>
-<h3>
+class Skills:
+    languages: tuple[str, ...] = ("Python", "Bash", "HTML", "CSS", "JavaScript")
+    tools: tuple[str, ...] = ("Docker", "Visual Studio Code")
+    learning: tuple[str, ...] = ("Advanced Python", "Web Frameworks")
 
-```js
-​
-languages = "Python" 
-k = "Bash"
-k2 = "HTML"
-k3 = "CSS"
-k4 = "Java Script"
-console.log(languages, k, k2, k3, k4)
-​
+skills = Skills()
+print(json.dumps(asdict(skills), indent=4))
+
+print("Thank You! Stay tuned.  My current focus:", ", ".join(skills.learning)) 
 ```
 
-# TOOLS AND LANGS USED
-- ![Python](https://img.shields.io/badge/Python-ffffff?style=for-the-badge&logo=python)&nbsp;&nbsp;
-- ![VCS](https://img.shields.io/badge/visual%20studio%20code-E52E06?style=for-the-badge&logo=visual-studio-code)&nbsp;&nbsp;
-- ![TELETHON](https://img.shields.io/badge/Telethon-ffffff.svg?logo=data:image/svg+xml;base64,PCEtLSBMb2dvIGhhbmQtbWFkZSBieSBMb25hbWkgKEMpIExvbmFtaVdlYnMgMjAxOCwgdGlkaWVkIHVwIGJ5IEp1YW5Qb3RhdG8gLS0+Cjxzdmcgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjQ1IiBmaWxsPSIjMzc3N2IwIiAvPgogIDxwYXRoIGQ9Ik0yMCAzMCBoNjAgdjEwIGwtMiAyIGgtMTcuNSBsLTEwLjUgNDMgbC0yIDIgbC0xMi41IC00NSBoLTE3LjUgdi0xMCIgZmlsbD0iI2YwYTcyNyIvPgogIDxwYXRoIGQ9Ik0yMCAzMCBoNjAgdjEwIGgtMTcuNSBsLTEyLjUgNDUgbC0xMi41IC00NSBoLTE3LjUgdi0xMCIgZmlsbD0iI2ZmZDc1MCIvPgo8L3N2Zz4K)&nbsp;&nbsp;
+```javascript
+const languages = ["Python", "Bash", "HTML", "CSS", "JavaScript"];
+const tools = ["Docker", "Visual Studio Code"];
+const learning = ["Advanced Python", "Web Frameworks"];
 
+console.log("Languages:", languages.join(", "));
+console.log("Tools:", tools.join(", "));
+console.log("Currently Learning:", learning.join(", "));
+```
 
 ---
-![Aman Paney's Git Stats](https://github-readme-stats.vercel.app/api?username=AmanPandey7647&include_all_commits=true&count_private=true&theme=tokyonight)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AmanPandey7647&layout=compact&theme=radical)](https://github.com/AmanPandey7647)
----
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=AmanPandey7647&show_icons=true&locale=en&langs_count=15&theme=tokyonight" alt="AmanPandey7647" /></p>
+
+
+<div align="center">
+  ![Aman Paney's Git Stats](https://github-readme-stats.vercel.app/api?username=AmanPandey7647&include_all_commits=true&count_private=true&theme=tokyonight)
+    <br/>  <!-- Line break for better spacing -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AmanPandey7647&show_icons=true&locale=en&layout=compact&langs_count=15&theme=tokyonight&cache_seconds=0" alt="AmanPandey7647" /> <!-- Added cache_seconds=0 -->
+</div>
+
+
+
 ---
