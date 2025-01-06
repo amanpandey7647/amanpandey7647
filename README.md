@@ -3,7 +3,7 @@
 
 # 👋 Hi, I'm **Aman Pandey**! Welcome to my GitHub profile! 
 
-I'm a passionate **Full-Stack Developer** with a focus on **Machine Learning**, **Cloud Technologies**, and **Blockchain Development**. I love exploring new technologies and contributing to open-source projects. Feel free to explore my repositories, check out my ongoing projects, and reach out for collaborations!
+I'm a passionate **Full-Stack Developer** with a focus on **Machine Learning**, **Python**, and **Web Development**. I love exploring new technologies and contributing to open-source projects. Feel free to explore my repositories, check out my ongoing projects, and reach out for collaborations!
 
 ---
 
@@ -19,23 +19,17 @@ languages:
   - JavaScript
   - HTML
   - CSS
-  - Java
-  - Go
+  -Shell
 
 misc_tools:
   - Docker
-  - Kubernetes
-  - GraphQL
+  - Mongo DB
   - PostgreSQL
-  - Node.js
-  - React.js
-  - TensorFlow
-  - Scikit-learn
+
 
 current_learning:
-  - Web3 Development
-  - Blockchain (Ethereum & Solana)
-  - Cloud Engineering (AWS, GCP, Azure)
+  - AI/ML
+  - Web Dev
 ```
 
 ---
