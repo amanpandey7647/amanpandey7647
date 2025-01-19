@@ -43,6 +43,7 @@ current_learning:
 </p>
 
 ---
+
 ---
 
 ### Recent Activity
@@ -60,7 +61,12 @@ current_learning:
 </p>
 
 ---
+---
 
+## 👨‍💻 LOC
+[![Lines of Code](https://api.githubtrends.io/user/svg/amanpandey7647/langs?time_range=one_year&include_private=True&loc_metric=changed&theme=dark)](https://github.com/amanpandey7647)
+
+---
 ---
 ## 🛠️ **Languages & Tools**
 
