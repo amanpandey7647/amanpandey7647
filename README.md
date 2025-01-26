@@ -44,14 +44,6 @@ current_learning:
 
 ---
 
----
-
-### Recent Activity
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
 ## 📈 **GitHub Contributions**
 
 <!-- GitHub Contributions Graph -->
@@ -79,9 +71,8 @@ current_learning:
 
 ## 💻 **Get Involved**
 
-- 🎯 I’m currently open to **collaborations** and **open-source contributions**. Feel free to [reach out](mailto:your.email@example.com)!
+- 🎯 I’m currently open to **collaborations** and **open-source contributions**.
 - 💬 **Ask me about** anything related to **Machine Learning**, **Blockchain**, **Cloud Technologies**, or **Full-Stack Development**.
-- 📢 I regularly write about **machine learning**, **blockchain**, and **cloud computing** on my [Blog](https://your-blog-link.com) (if applicable).
 
 ---
 
