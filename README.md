@@ -85,16 +85,6 @@ current_learning:
 
 ---
 
-## ⚡ **Fun Facts**
-
-- I’ve built several interactive data visualizations using **D3.js** and **Plotly**. Check out my interactive projects in the repositories!
-- I'm an advocate for **sustainable technology** and am always working on ways to reduce the environmental impact of computing systems.
-- I am currently learning about the intersection of **AI and Blockchain**.
-
----
-
-
-
 **Thank you for visiting my profile! 🚀**
 
 ---
