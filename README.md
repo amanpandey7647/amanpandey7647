@@ -19,7 +19,14 @@ languages:
   - JavaScript
   - HTML
   - CSS
-  -Shell
+  - Shell
+  - C
+
+libraries:
+  - Pandas
+  - Numpy
+  - Telethon
+  - yt-dlp
 
 misc_tools:
   - Docker
@@ -28,7 +35,7 @@ misc_tools:
 
 
 current_learning:
-  - AI/ML
+  - Artificial Intellegence
   - Web Dev
 ```
 
@@ -72,7 +79,7 @@ current_learning:
 ## 💻 **Get Involved**
 
 - 🎯 I’m currently open to **collaborations** and **open-source contributions**.
-- 💬 **Ask me about** anything related to **Machine Learning**, **Blockchain**, **Cloud Technologies**, or **Full-Stack Development**.
+- 💬 **Ask me about** anything related to **Telethon**, **Telegram**, **Python**
 
 ---
 
